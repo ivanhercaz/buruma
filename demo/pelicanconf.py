@@ -33,3 +33,6 @@ DEFAULT_PAGINATION = 3
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+# Buruma configuration
+THEME = "../"
