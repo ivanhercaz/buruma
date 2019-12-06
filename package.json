@@ -1,6 +1,6 @@
 {
   "name": "buruma",
-  "version": "0.0.0",
+  "version": "0.1.0-alpha",
   "description": "a Pelican theme with Bulma (CSS Framework)",
   "scripts": {
     "css-build": "node-sass --omit-source-map-url static/scss/style.scss static/css/style.css",
