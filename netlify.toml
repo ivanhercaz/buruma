@@ -1,0 +1,4 @@
+[build]
+  base = "."
+  publish = "./demo/output"
+  command = "make all"
