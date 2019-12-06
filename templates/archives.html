@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% block title %}
+Todas las entradas - {{ super() }}
+{% endblock title %}
+
+{% block content %}
+	<h1 class="title">Archivo</h1>
+	{% for article in dates %}
+		{% set year = article.date.strftime("%Y") %}
+		{% if loop.first %}
+			<h2 class="subtitle" id="{{ year }}"><a href="#{{ year }}">{{ year }}</a></h2>
+		{% else %}
+			{% set prev_year = loop.previtem.date.strftime("%Y") %}
+			{% if prev_year != year %}
+				<h2 class="subtitle" id="{{ year }}"><a href="#{{ year }}">{{ year }}</a></h2>
+			{% endif %}
+		{% endif %}
+		{% if loop.last %}
+			<article itemscope class="message {% for cat in CATS_STYLE %}{% if article.category == cat %}{{ CATS_STYLE[cat] }}{% endif %}{% endfor %} last-entry-of-year">
+		{% else %}
+			{% set next_year = loop.nextitem.date.strftime("%Y") %}
+			{% if next_year != year %}
+				<article itemscope class="message {% for cat in CATS_STYLE %}{% if article.category == cat %}{{ CATS_STYLE[cat] }}{% endif %}{% endfor %} last-entry-of-year">
+			{% else %}
+				<article itemscope class="message {% for cat in CATS_STYLE %}{% if article.category == cat %}{{ CATS_STYLE[cat] }}{% endif %}{% endfor %}">
+			{% endif %}
+		{% endif %}
+
+		<div class="message-header">
+			{{ article.category }}
+		</div>
+		<div class="message-body">
+			<div class="columns is-multiline">
+				<div class="column is-one-quarter has-text-centered">
+					<p><time itemprop="dateCreated" datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time></p>
+					<p>{% for tag in article.tags %}<a href="{{ tag.url }}"><span class="tag is-info">{{ tag }}</span></a> {% endfor %}</p>
+				</div>
+				<div class="column">
+					<h2 class="is-size-5"><a href="/{{ article.url }}">{{ article.title }}</a></h2>
+					{% if article.extract %}<p class="has-text-dark">{{ article.extract }}</p>{% endif %}
+				</div>
+			</div>
+		</article>
+	{% endfor %}
+{% endblock content %}

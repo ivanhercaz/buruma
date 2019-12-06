@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="{{ DEFAULT_LANG | default('es') }}">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE-edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		{% if article and article.author %}
+			<meta name="author" content="{{ article.author }}" />
+		{% elif page and page.author %}
+			<meta name="author" content="{{ page.author }}" />
+		{% else %}
+			<meta name="author" content="{{ AUTHOR }}" />
+		{% endif %}
+		{% if SITE_DESCRIPTION %}
+			<meta name="description" content="{{ SITE_DESCRIPTION }}">
+		{% endif %}
+		{% if TWITTER_USERNAME %}
+			<meta name="twitter:creator" content="@{{ TWITTER_USERNAME }}" />
+		{% endif %}
+		<title>{% block title %}{{ SITENAME|striptags|e }}{% endblock title %}</title>
+		<link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/style.css">
+		<script src="{{ SITEURL }}/theme/js/menu.js"></script>
+	</head>
+	<body>
+		{% block navbar %}
+		<nav class="navbar {% if NAVBAR_STYLE %}{{ NAVBAR_STYLE }}{% endif %}" role="navigation" aria-label="main navigation">
+				<div class="navbar-brand">
+					{% if THEME_LOGO %}
+						<a class="navbar-item" href="https://ivanhercaz.com">
+							<img src="{{ THEME_LOGO }}" width="112" height="28">
+						</a>
+					{% endif %}
+					<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarMain">
+						<span aria-hidden="true"></span>
+						<span aria-hidden="true"></span>
+						<span aria-hidden="true"></span>
+					</a>
+				</div>
+				<div id="navbarMain" class="navbar-menu">
+					<div class="navbar-start">
+					{% for item, link in MENUITEMS_NAVBAR %}
+						<a class="navbar-item" href="{{ link }}">
+							{{ item }}
+						</a>
+					{% endfor %}
+					<div class="navbar-item has-dropdown is-hoverable">
+						<a class="navbar-link" href="/categories">
+							Contenido
+						</a>
+						<div class="navbar-dropdown">
+							{% for cat in categories %}
+							<a class="navbar-item" href="/{{ cat[0].url }}">
+								{{ cat[0] }}
+							</a>
+							{% endfor %}
+						</div>
+					</div>
+				</div>
+				<div class="navbar-end">
+					<div class="navbar-item">
+						<div class="buttons">
+							{% for item, link, style in MENUITEMS_NAVBAR_FEATURED %}
+								<a class="button {{ style }}" href="{{ link }}">{{ item }}</a>
+							{% endfor %}
+						</div>
+					</div>
+				</div>
+			</div>
+			</nav>
+		{% endblock navbar %}
+		<section class="section">
+			<div class="container">
+				{% block content %}
+				{% endblock content %}
+			</div>
+		</section>
+		<footer class="footer">
+			<div class="container has-text-centered">
+				<div class="columns">
+					<div class="column">
+						{% if FOOTER %}
+							{{ FOOTER }}
+						{% else %}
+							<p>Website generated with <a href="https://getpelican.com">Pelican</a>. <a href="https://github.com/ivanhercaz/buruma">Buruma</a> theme by <a href="https://ivanhercaz.com">Ivanhercaz</a></p>
+						{% endif %}
+						<p><a href="https://bulma.io">
+							<img src="/theme/images/made_with_bulma.png" alt="Made with Bulma" width="128" height="24">
+						</a></p>
+					</div>
+					<div class="column">
+						{% if LICENSE %}
+							<p><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licencia Creative Commons" style="border-width: 0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" class="license-text" href="https://creativecommons.org/licenses/by-sa/4.0">Licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional</a>.
+					{% endif %}
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
