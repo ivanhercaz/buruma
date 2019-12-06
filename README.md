@@ -6,4 +6,4 @@ I am still working in the release of the first version (0.1.0). You can check th
 
 # Where you can see Buruma
 
-Buruma is being used just for me. If you want, you can check my [personal website](https://ivanhercaz). I will always the last version of Buruma to test it.
+Buruma is being used just for me. If you want, you can check my [personal website](https://ivanhercaz.com). I will always the last version of Buruma to test it.
