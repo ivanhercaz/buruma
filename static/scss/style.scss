@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+$dark-sea: hsl(208.6, 18.6%, 22.2%);
+$sea: hsl(192.5, 48%, 29.4%);
+$light-sea: hsl(179.5, 79.4%, 30.4%);
+$turquoise: hsl(159.3, 45.4%, 48.8%);
+$light-green: hsl(105, 56.1%, 67.8%);
+$soft-yellow: hsl(59.6, 91.9%, 71%);
+$white-ter: hsl(0, 0%, 96%);
+
+$primary: $sea;
+$info: $light-sea;
+$link: $dark-sea;
+$success: $turquoise;
+$warning: $soft-yellow;
+
+/* Still being the same as in Bulma
+$danger: $red
+$dark: $grey-darker
+$text: $grey-dark
+*/
+
+@import "../../node_modules/bulma/bulma.sass";
+
+h2 {
+	a {
+		text-decoration: none !important;
+	}
+}
+
+.message-body {
+	h2 {
+		@extend .subtitle, .is-3;
+		margin-bottom: 1.5rem;
+		margin-top: 1.5rem;
+	}
+
+	h3 {
+		@extend .subtitle, .is-4;
+		margin-bottom: 0.5rem;
+		margin-top: 1.5rem;
+	}
+
+	p {
+		margin-top: 6px;
+	}
+
+	figure {
+		margin: 25px !important;
+	}
+
+	ol, ul {
+		margin-inline-start: 50px;
+		list-style-type: disc;
+
+		li {
+			margin-top: 6px;
+		}
+	}
+	
+	.table {
+		margin: 25px !important;
+		padding: 5px !important;
+	}
+	
+	.image {
+		@extend .has-text-centered;
+		background: $white-ter;
+		min-width: 214px;
+		margin: 0 auto !important;
+
+		figcaption {
+			color: $grey-darker; 
+			margin-left: 2px;
+			margin-right: 2px;
+			margin-bottom: 4px;
+			padding-bottom: 4px;
+		}
+
+		img {
+			display: inline-block;
+		}
+	}
+}
+
+.image-centered {
+	text-align: center;
+}
