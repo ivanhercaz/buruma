@@ -1,0 +1,32 @@
+{
+  "name": "buruma",
+  "version": "0.0.0",
+  "description": "a Pelican theme with Bulma (CSS Framework)",
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url static/scss/style.scss static/css/style.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivanhercaz/buruma.git"
+  },
+  "keywords": [
+    "bulma",
+    "css",
+    "scss",
+    "theme",
+    "python",
+    "flexbox"
+  ],
+  "author": "Iván Hernández Cazorla",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ivanhercaz/buruma/issues"
+  },
+  "homepage": "https://github.com/ivanhercaz/buruma",
+  "devDependencies": {
+    "bulma": "^0.8.0",
+    "node-sass": "^4.13.0"
+  }
+}
