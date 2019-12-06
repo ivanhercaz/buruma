@@ -1,4 +1,4 @@
 all:
 	npm run css-build
-	pip install pelican[Markdown]
+	pip3 install pelican[Markdown]
 	cd demo && make html
