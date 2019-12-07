@@ -1,11 +1,12 @@
 {% extends "base.html" %}
 
 {% block title %}
-Etiquetas del contenido - {{ super() }}
+{% trans %}Tags{% endtrans %} - {{ super() }}
 {% endblock title %}
 
 {% block content %}
-	<h1 class="title">Etiquetas de contenido</h1>
+	<h1 class="title">{% trans %}Tags{% endtrans %}</h1>
+
 	<div class="tags are-medium">
 		{% for tag in tags|sort %}
 			<span class="tag"><a href="{{ tag[0].url }}">{{ tag[0] }} ({{ tag[1]|length() }})</a></span>
