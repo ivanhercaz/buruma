@@ -3,16 +3,16 @@
 {% block content %}
 	<div class="columns">
 		<div class="column">
-			<h1 class="title">¡Hola! Soy Iván Hernández Cazorla</h1>
-			<h2 class="subtitle">Bienvenido a mi sitio web</h2>
-			<p>Puedes encontrarme en <a class="tag is-link" href="https://www.linkedin.com/in/ivanhercaz">LinkedIn</a>, <a class="tag is-dark" href="https://ivanhercaz.github.io/theme/images/icons/github.png">GitHub</a> y <a class="tag is-info"class="tag is-info"  href="https://ivanhercaz.github.io/theme/images/icons/twitter.png">Twitter</a>.</p>
+			<h1 class="title">{% trans %}Welcome to{% endtrans %} {{ SITENAME }}{% trans %}!{% endtrans %}</h1>
+			{% if SITENAME_SLOGAN %}<h2 class="subtitle">{{ SITENAME_SLOGAN }}</h2>
+			{% if SOCIAL and SOCIAL_FRONTPAGE %}<p>{% trans %}We are in{% endtrans %} <a class="tag is-link" href="https://www.linkedin.com/in/ivanhercaz">LinkedIn</a>, <a class="tag is-dark" href="https://ivanhercaz.github.io/theme/images/icons/github.png">GitHub</a> {% trans %}and{% endtrans %} <a class="tag is-info"class="tag is-info"  href="https://ivanhercaz.github.io/theme/images/icons/twitter.png">Twitter</a>.</p>
 		</div>
 		<div class="column">
 			{{ ABOUT_EXTRACT }}
 		</div>
 	</div>
 	<div class="container">
-		<h1 class="title">Últimas entradas</h1>
+		<h1 class="title">{% trans %}Last entries{% endtrans %}</h1>
 		{% for article in (articles_page.object_list if articles_page else articles) %}
 		<article class="message {% for cat in CATS_STYLE %}{% if article.category == cat %}{{ CATS_STYLE[cat] }}{% endif %}{% endfor %}">
 				<div class="message-header">
