@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block title %}
+{% trans %}Authors{% endtrans %}- {{ super() }}
+{% endblock title %}
+
+{% block content %}
+	<h1 class="title">{% trans %}Authors{% endtrans %}</h1>
+
+	<div class="columns is-multiline is-centered">
+		<div class="tags are-large has-text-white">
+		{% for author in authors|sort %}
+		<div class="column has-text-centered">
+			<p><span class="tag is-success"><a href="{{ author[0].url }}">{{ author[0] }}</a></p>
+			</div>
+		{% endfor %}
+		</div>
+	</div>
+{% endblock content %}
