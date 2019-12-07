@@ -81,7 +81,7 @@
 						{% if FOOTER %}
 							{{ FOOTER }}
 						{% else %}
-							<p>Website generated with <a href="https://getpelican.com">Pelican</a>. <a href="https://github.com/ivanhercaz/buruma">Buruma</a> theme by <a href="https://ivanhercaz.com">Ivanhercaz</a></p>
+							<p>{% trans %}Website generated with{% endtrans %} <a href="https://getpelican.com">Pelican</a>. <a href="https://github.com/ivanhercaz/buruma">Buruma</a> {% trans %}theme by{% endtrans %} <a href="https://ivanhercaz.com">Ivanhercaz</a></p>
 						{% endif %}
 						<p><a href="https://bulma.io">
 							<img src="/theme/images/made_with_bulma.png" alt="Made with Bulma" width="128" height="24">
@@ -91,7 +91,7 @@
 						{% if LICENSE %}
 							{{ LICENSE_NOTICE}}	
 						{% else %}
-							<p>All rights reserved © {{ AUTHOR }}</p>
+							<p>{% trans %}All rights reserved ©{% endtrans %} {{ AUTHOR }}</p>
 						{% endif %}
 				</div>
 			</div>
