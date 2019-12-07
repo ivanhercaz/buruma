@@ -1,11 +1,11 @@
 {% extends "base.html" %}
 
 {% block title %}
-Categorías de contenido - {{ super() }}
+{% trans %}Categories{% endtrans %}- {{ super() }}
 {% endblock title %}
 
 {% block content %}
-	<h1 class="title">Categorías de contenido</h1>
+	<h1 class="title">{% trans %}Categories{% endtrans %}</h1>
 
 	<div class="columns is-multiline is-centered">
 		<div class="tags are-large has-text-white">
