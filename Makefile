@@ -18,9 +18,8 @@ update:
 compile:
 	pybabel compile --directory translations/ --domain messages
 
-sync-plugins:
-	@echo "Clone pelican-plugins"
-deploy: sync-plugins
+deploy:
 	npm run css-build
+	rm -rf docs/plugins
 	git clone --jobs 8 --recurse-submodules=i18n_subsites --shallow-submodules https://github.com/getpelican/pelican-plugins.git docs/plugins
 	cd docs && make html
