@@ -74,8 +74,4 @@ endif
 publish:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
 
-deploy:
-	cd .. && npm run css-build
-	make html
-
-.PHONY: html help clean regenerate serve serve-global devserver publish deploy
+.PHONY: html help clean regenerate serve serve-global devserver publish

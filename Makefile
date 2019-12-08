@@ -17,3 +17,7 @@ update:
 
 compile:
 	pybabel compile --directory translations/ --domain messages
+
+deploy:
+	npm run css-build
+	cd docs && make html

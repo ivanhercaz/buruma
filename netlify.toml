@@ -1,5 +1,5 @@
 [build]
   base = "."
   publish = "./docs/output"
-  command = "cd docs && make deploy"
+  command = "make deploy"
 
