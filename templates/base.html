@@ -23,7 +23,7 @@
 	</head>
 	<body>
 		{% block navbar %}
-		<nav class="navbar {% if NAVBAR_STYLE %}{{ NAVBAR_STYLE }}{% endif %}" role="navigation" aria-label="main navigation">
+		<nav class="navbar {% if NAVBAR_STYLE %}{{ NAVBAR_STYLE }}{% else %}is-info{% endif %}" role="navigation" aria-label="main navigation">
 				<div class="navbar-brand">
 					{% if THEME_LOGO %}
 						<a class="navbar-item" href="https://ivanhercaz.com">
