@@ -1,0 +1,1 @@
+pelican[Markdown]==4.2.0
