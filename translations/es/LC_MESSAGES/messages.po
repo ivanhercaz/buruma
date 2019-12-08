@@ -1,23 +1,22 @@
-# Translations template for PROJECT.
+# Spanish translations for PROJECT.
 # Copyright (C) 2019 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-12-07 17:36+0000\n"
+"Project-Id-Version: 0.1.0\n"
+"Report-Msgid-Bugs-To: ivan@ivanhercaz.com\n"
+"POT-Creation-Date: 2019-12-08 23:53+0000\n"
 "PO-Revision-Date: 2019-12-07 17:45+0000\n"
+"Last-Translator: Iván Hernández Cazorla <ivan@ivanhercaz.com>\n"
+"Language: es\n"
 "Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
-"X-Generator: Poedit 2.2.1\n"
-"Last-Translator: \n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Language: es\n"
 
 #: templates/404.html:4
 msgid "Page does not exist!"
@@ -43,21 +42,22 @@ msgstr "Artículos por"
 msgid "Authors"
 msgstr "Autores"
 
-#: templates/base.html:84
+#: templates/base.html:52 templates/categories.html:4
+#: templates/categories.html:8
+msgid "Categories"
+msgstr "Categorías"
+
+#: templates/base.html:88
 msgid "Website generated with"
 msgstr "Sitio web generado con"
 
-#: templates/base.html:84
+#: templates/base.html:88
 msgid "theme by"
 msgstr "tema por"
 
-#: templates/base.html:94
+#: templates/base.html:98
 msgid "All rights reserved ©"
 msgstr "Todos los derechos reservados ©"
-
-#: templates/categories.html:4 templates/categories.html:8
-msgid "Categories"
-msgstr "Categorías"
 
 #: templates/category.html:4 templates/category.html:8
 msgid "Articles categorized in"
@@ -90,3 +90,7 @@ msgstr "Artículos etiquetados con"
 #: templates/tags.html:4 templates/tags.html:8
 msgid "Tags"
 msgstr "Etiquetas"
+
+#~ msgid "Contenido"
+#~ msgstr ""
+
