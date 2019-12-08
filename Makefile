@@ -7,13 +7,13 @@ help:
 	@echo "      make compile			Compile po files to mo files."
 
 extract:
-	pybabel extract --mapping babel.cfg --output messages.pot ./
+	pybabel extract --mapping babel.cfg --output translations/messages.pot ./
 
 init:
 	pybabel init --input-file translations/messages.pot --output-dir translations/ --locale $(lang) --domain messages
 
 update:
-	pybabel update --input-file messages.pot --output-dir translations/ --domain messages
+	pybabel update --input-file translations/messages.pot --output-dir translations/ --domain messages
 
 compile:
 	pybabel compile --directory translations/ --domain messages
