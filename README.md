@@ -9,3 +9,15 @@ I am still working in the release of the first version (0.1.0). You can check th
 # Where you can see Buruma
 
 Buruma is being used just for me. If you want, you can check my [personal website](https://ivanhercaz.com). I will always the last version of Buruma to test it.
+
+# Configuration
+
+If you want to set a different language than English, you need to add the i18n extension for Jinja2:
+
+```python
+JINJA_ENVIRONMENT = {
+  'extensions': ['jinja2.ext.i18n', ...]
+}
+```
+
+**Pending to improve**
