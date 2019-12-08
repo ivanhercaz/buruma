@@ -38,9 +38,8 @@ DEFAULT_PAGINATION = 5
 
 THEME = "../"
 
+PLUGIN_PATHS = ["plugins"]
+PLUGINS = ["i18n_subsites", ]
 JINJA_ENVIRONMENT = {
-    "extensions": ["jinja2.ext.i18n"]
+    "extensions": ["jinja2.ext.i18n"],
 }
-
-PLUGIN_PATHS = ['/home/ivanhercaz/Apps/pelican-plugins']
-PLUGINS = ["i18n_subsites"]
