@@ -87,4 +87,4 @@ ABOUT_EXTRACT = ("<p>Here you can find the documentation about Buruma, a Pelican
                  "it</a>. Your issue will be attended as soon as possible.</p>"
                  "<p>Do you miss something on Buruma? "
                  "<a href='https://github.com/ivanhercaz/buruma/issues'>Ask for it!</a> Buruma is"
-                 "a new born theme, so it may lack many interesting features.")
+                 "a new born theme, so it may lack many interesting features.</p>")
