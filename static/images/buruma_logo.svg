@@ -15,7 +15,10 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   sodipodi:docname="buruma_logo.svg">
+   sodipodi:docname="buruma_logo.svg"
+   inkscape:export-filename="/home/ivanhercaz/Apps/buruma/static/images/buruma_logo.png"
+   inkscape:export-xdpi="400"
+   inkscape:export-ydpi="400">
   <title
      id="title1017">Buruma Logo</title>
   <defs
@@ -46,16 +49,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="3.8906349"
-     inkscape:cx="70.955823"
+     inkscape:cx="61.445807"
      inkscape:cy="13.764135"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
      showguides="true"
      inkscape:window-width="1362"
-     inkscape:window-height="685"
+     inkscape:window-height="665"
      inkscape:window-x="0"
-     inkscape:window-y="60"
+     inkscape:window-y="80"
      inkscape:window-maximized="0"
      fit-margin-top="0"
      fit-margin-left="0"
