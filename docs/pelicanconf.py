@@ -51,9 +51,7 @@ JINJA_ENVIRONMENT = {
 }
 
 # Buruma settings
-MENUITEMS_NAVBAR = (('Acerca de', '/p/acerca-de.html'),
-                    ('Blog', SITEURL),
-                    ('Recursos', '/p/recursos.html'))
+MENUITEMS_NAVBAR = ()
 
 MENUITEMS_NAVBAR_FEATURED = (("Contact",
                               "/contact",
