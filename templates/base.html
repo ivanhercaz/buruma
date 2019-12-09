@@ -26,11 +26,11 @@
 		<nav class="navbar {% if NAVBAR_STYLE %}{{ NAVBAR_STYLE }}{% else %}is-info{% endif %}" role="navigation" aria-label="main navigation">
 				<div class="navbar-brand">
 					{% if THEME_LOGO %}
-						<a class="navbar-item" href="https://ivanhercaz.com">
+						<a class="navbar-item" href="{{ SITEURL}}">
 							<img src="{{ THEME_LOGO }}" width="112" height="28">
 						</a>
 					{% else %}
-						<a class="navbar-item" href="https://ivanhercaz.com">
+						<a class="navbar-item" href="{{ SITEURL}}">
 							<img src="{{ SITEURL }}/theme/images/buruma_logo.png" width="112" height="28">
 						</a>
 					{% endif %}
