@@ -66,9 +66,8 @@ MENUITEMS_NAVBAR_FEATURED = (("Contact",
                               "is-warning"))
 
 NAVBAR_STYLE = "is-info"
-CATS_STYLE = {"Conocimiento libre": "is-primary",
-              "Divulgación científica": "is-success",
-              "Meta": "is-warning"}
+CATS_STYLE = {"Documentation": "is-primary",}
+
 FOOTER = ("Este sitio web funciona gracias a <a href='https://getpelican.com'>Pelican</a>, "
           "un gestor de contenido desarrollado en <a href='https://python.org'>Python</a> y "
           "utiliza la plantilla <a href='https://github.com/ivanhercaz/buruma'>Buruma</a>.")
