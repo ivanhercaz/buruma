@@ -2,7 +2,7 @@ Title: Quickstart
 Date: 2019-12-08 20:00
 Status: published
 Author: Ivanhercaz
-Category: meta
+Category: Documentation
 Tags: quickstart, settings
 Slug: quickstart
 Extract: Do you want to use Buruma? Follow this quickstart guide.
