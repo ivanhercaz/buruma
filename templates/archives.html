@@ -1,11 +1,11 @@
 {% extends "base.html" %}
 
 {% block title %}
-Todas las entradas - {{ super() }}
+{% trans %}All entries{% endtrans %} - {{ super() }}
 {% endblock title %}
 
 {% block content %}
-	<h1 class="title">Archivo</h1>
+	<h1 class="title">{% trans %}Archive{% endtrans %}</h1>
 	{% for article in dates %}
 		{% set year = article.date.strftime("%Y") %}
 		{% if loop.first %}
@@ -41,6 +41,7 @@ Todas las entradas - {{ super() }}
 					{% if article.extract %}<p class="has-text-dark">{{ article.extract }}</p>{% endif %}
 				</div>
 			</div>
+		</div>
 		</article>
 	{% endfor %}
 {% endblock content %}

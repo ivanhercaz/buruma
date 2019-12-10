@@ -1,3 +1,5 @@
 node_modules/
 package-lock.json
-static/css
+docs/__pycache__
+docs/output
+docs/plugins

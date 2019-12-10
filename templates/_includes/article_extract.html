@@ -1,0 +1,18 @@
+<article class="message {% for cat in CATS_STYLE %}{% if article.category == cat %}{{ CATS_STYLE[cat] }}{% endif %}{% endfor %}">
+	<div class="message-header">
+		<p>{{ article.category }}</p>
+	</div>
+	<div class="message-body">
+		<div class="columns is-multiline">
+			<div class="column is-one-quarter has-text-centered">
+				<p><time itemprop="dateCreated" datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time></p>
+				<p>{% for tag in article.tags %}<a href="{{ SITEURL }}/{{ tag.url }}"><span class="tag is-link">{{ tag }}</span></a> {% endfor %}</p>
+			</div>
+			<div class="column">
+				<h2 class="is-size-5"><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h2>
+				{% if article.extract %}<p class="has-text-dark">{{ article.extract }}</p>{% endif %}
+			</div>
+		</div>
+	</div>
+</article>
+

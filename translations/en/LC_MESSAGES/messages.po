@@ -1,0 +1,96 @@
+# English translations for PROJECT.
+# Copyright (C) 2019 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.0\n"
+"Report-Msgid-Bugs-To: ivan@ivanhercaz.com\n"
+"POT-Creation-Date: 2019-12-08 23:53+0000\n"
+"PO-Revision-Date: 2019-12-07 17:37+0000\n"
+"Last-Translator: Iván Hernández Cazorla <ivan@ivanhercaz.com>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: templates/404.html:4
+msgid "Page does not exist!"
+msgstr "Page does not exist!"
+
+#: templates/404.html:9
+msgid "The page you requested doesn't exist!"
+msgstr "The page you requested doesn't exist!"
+
+#: templates/archives.html:4
+msgid "All entries"
+msgstr "All entries"
+
+#: templates/archives.html:8
+msgid "Archive"
+msgstr "Archive"
+
+#: templates/author.html:4 templates/author.html:8
+msgid "Articles by"
+msgstr "Articles by"
+
+#: templates/authors.html:4 templates/authors.html:8
+msgid "Authors"
+msgstr "Authors"
+
+#: templates/base.html:52 templates/categories.html:4
+#: templates/categories.html:8
+msgid "Categories"
+msgstr "Categories"
+
+#: templates/base.html:88
+msgid "Website generated with"
+msgstr "Website generated with"
+
+#: templates/base.html:88
+msgid "theme by"
+msgstr "theme by"
+
+#: templates/base.html:98
+msgid "All rights reserved ©"
+msgstr "All rights reserved ©"
+
+#: templates/category.html:4 templates/category.html:8
+msgid "Articles categorized in"
+msgstr "Articles categorized in"
+
+#: templates/index.html:6
+msgid "Welcome to"
+msgstr "Welcome to"
+
+#: templates/index.html:6
+msgid "!"
+msgstr "!"
+
+#: templates/index.html:8
+msgid "We are in"
+msgstr "We are in"
+
+#: templates/index.html:8
+msgid "and"
+msgstr "and"
+
+#: templates/index.html:15
+msgid "Last entries"
+msgstr "Last entries"
+
+#: templates/tag.html:4 templates/tag.html:8
+msgid "Articles tagged with"
+msgstr "Articles tagged with"
+
+#: templates/tags.html:4 templates/tags.html:8
+msgid "Tags"
+msgstr "Tags"
+
+#~ msgid "Contenido"
+#~ msgstr ""
+

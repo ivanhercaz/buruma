@@ -18,16 +18,20 @@
 			<meta name="twitter:creator" content="@{{ TWITTER_USERNAME }}" />
 		{% endif %}
 		<title>{% block title %}{{ SITENAME|striptags|e }}{% endblock title %}</title>
-		<link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/style.css">
+		<link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/style.min.css">
 		<script src="{{ SITEURL }}/theme/js/menu.js"></script>
 	</head>
 	<body>
 		{% block navbar %}
-		<nav class="navbar {% if NAVBAR_STYLE %}{{ NAVBAR_STYLE }}{% endif %}" role="navigation" aria-label="main navigation">
+		<nav class="navbar {% if NAVBAR_STYLE %}{{ NAVBAR_STYLE }}{% else %}is-info{% endif %}" role="navigation" aria-label="main navigation">
 				<div class="navbar-brand">
 					{% if THEME_LOGO %}
-						<a class="navbar-item" href="https://ivanhercaz.com">
+						<a class="navbar-item" href="{{ SITEURL}}">
 							<img src="{{ THEME_LOGO }}" width="112" height="28">
+						</a>
+					{% else %}
+						<a class="navbar-item" href="{{ SITEURL}}">
+							<img src="{{ SITEURL }}/theme/images/buruma_logo.png" width="112" height="28">
 						</a>
 					{% endif %}
 					<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarMain">
@@ -45,7 +49,7 @@
 					{% endfor %}
 					<div class="navbar-item has-dropdown is-hoverable">
 						<a class="navbar-link" href="/categories">
-							Contenido
+							{% trans %}Categories{% endtrans %}
 						</a>
 						<div class="navbar-dropdown">
 							{% for cat in categories %}
@@ -81,7 +85,7 @@
 						{% if FOOTER %}
 							{{ FOOTER }}
 						{% else %}
-							<p>Website generated with <a href="https://getpelican.com">Pelican</a>. <a href="https://github.com/ivanhercaz/buruma">Buruma</a> theme by <a href="https://ivanhercaz.com">Ivanhercaz</a></p>
+							<p>{% trans %}Website generated with{% endtrans %} <a href="https://getpelican.com">Pelican</a>. <a href="https://github.com/ivanhercaz/buruma">Buruma</a> {% trans %}theme by{% endtrans %} <a href="https://ivanhercaz.com">Ivanhercaz</a></p>
 						{% endif %}
 						<p><a href="https://bulma.io">
 							<img src="/theme/images/made_with_bulma.png" alt="Made with Bulma" width="128" height="24">
@@ -89,7 +93,9 @@
 					</div>
 					<div class="column">
 						{% if LICENSE %}
-							{{ LICENSE_NOTICE }}
+							{{ LICENSE_NOTICE}}	
+						{% else %}
+							<p>{% trans %}All rights reserved ©{% endtrans %} {{ AUTHOR }}</p>
 						{% endif %}
 				</div>
 			</div>

@@ -1,0 +1,92 @@
+# Translations template for PROJECT.
+# Copyright (C) 2019 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2019-12-08 23:53+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: templates/404.html:4
+msgid "Page does not exist!"
+msgstr ""
+
+#: templates/404.html:9
+msgid "The page you requested doesn't exist!"
+msgstr ""
+
+#: templates/archives.html:4
+msgid "All entries"
+msgstr ""
+
+#: templates/archives.html:8
+msgid "Archive"
+msgstr ""
+
+#: templates/author.html:4 templates/author.html:8
+msgid "Articles by"
+msgstr ""
+
+#: templates/authors.html:4 templates/authors.html:8
+msgid "Authors"
+msgstr ""
+
+#: templates/base.html:52 templates/categories.html:4
+#: templates/categories.html:8
+msgid "Categories"
+msgstr ""
+
+#: templates/base.html:88
+msgid "Website generated with"
+msgstr ""
+
+#: templates/base.html:88
+msgid "theme by"
+msgstr ""
+
+#: templates/base.html:98
+msgid "All rights reserved ©"
+msgstr ""
+
+#: templates/category.html:4 templates/category.html:8
+msgid "Articles categorized in"
+msgstr ""
+
+#: templates/index.html:6
+msgid "Welcome to"
+msgstr ""
+
+#: templates/index.html:6
+msgid "!"
+msgstr ""
+
+#: templates/index.html:8
+msgid "We are in"
+msgstr ""
+
+#: templates/index.html:8
+msgid "and"
+msgstr ""
+
+#: templates/index.html:15
+msgid "Last entries"
+msgstr ""
+
+#: templates/tag.html:4 templates/tag.html:8
+msgid "Articles tagged with"
+msgstr ""
+
+#: templates/tags.html:4 templates/tags.html:8
+msgid "Tags"
+msgstr ""
+

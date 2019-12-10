@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="43.750816mm"
+   height="10.205357mm"
+   viewBox="0 0 43.750816 10.205357"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="buruma_logo.svg"
+   inkscape:export-filename="/home/ivanhercaz/Apps/buruma/static/images/buruma_logo.png"
+   inkscape:export-xdpi="400"
+   inkscape:export-ydpi="400">
+  <title
+     id="title1017">Buruma Logo</title>
+  <defs
+     id="defs2">
+    <linearGradient
+       gradientTransform="matrix(138.584,0,0,138.584,72.4424,628.88)"
+       gradientUnits="userSpaceOnUse"
+       y2="0"
+       x2="1"
+       y1="0"
+       x1="0"
+       id="_Linear1">
+      <stop
+         id="stop927"
+         style="stop-color:rgb(84,196,198);stop-opacity:1"
+         offset="0%" />
+      <stop
+         id="stop929"
+         style="stop-color:rgb(18,186,213);stop-opacity:1"
+         offset="100%" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.8906349"
+     inkscape:cx="61.445807"
+     inkscape:cy="13.764135"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     showguides="true"
+     inkscape:window-width="1362"
+     inkscape:window-height="665"
+     inkscape:window-x="0"
+     inkscape:window-y="80"
+     inkscape:window-maximized="0"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid983"
+       originx="-2.1497397"
+       originy="-88.824411" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Buruma Logo</dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by/4.0/" />
+        <dc:date>2019-12-08</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Iván Hernández Cazorla</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Creative Commons Attribution International 4.0</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:description>Derived from the Bulma's logo.</dc:description>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by/4.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-2.1497397,-197.97024)">
+    <g
+       id="g960"
+       style="fill:none;fill-rule:evenodd;stroke:none;stroke-width:1"
+       transform="matrix(0.03189174,0,0,0.03189174,2.1497397,197.97024)">
+      <g
+         id="g958"
+         style="fill:#00d1b2">
+        <polygon
+           points="220,240 100,320 0,220 20,80 100,0 200,100 140,160 "
+           id="Path" />
+      </g>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:1.25;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="11.082352"
+       y="206.60101"
+       id="text981"><tspan
+         sodipodi:role="line"
+         id="tspan979"
+         x="11.082352"
+         y="206.60101"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87777805px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';text-align:start;text-anchor:start;stroke-width:0.26458332">BURUMA</tspan></text>
+  </g>
+</svg>
