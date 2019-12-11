@@ -37,6 +37,13 @@ DEFAULT_PAGINATION = 3
 # Buruma configuration
 THEME = "../"
 
+# Plugins
+PLUGIN_PATHS = ["plugins"]
+PLUGINS = ["i18n_subsites", ]
+JINJA_ENVIRONMENT = {
+    "extensions": ["jinja2.ext.i18n"],
+}
+
 MENUITEMS_NAVBAR = (('Home', SITEURL),
                     ('About', '/p/about.html'),
                     ('Docs', 'p/docs.html'),
