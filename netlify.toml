@@ -1,6 +1,5 @@
 [build]
   base = "."
-<<<<<<< HEAD
   publish = "./demo/output"
   command = "make all"
 
