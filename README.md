@@ -1,4 +1,19 @@
-# Buruma
+<p align="center">
+  <a href="https://buruma.ivanhercaz.com">
+    <img src="https://raw.githubusercontent.com/ivanhercaz/buruma/master/static/images/buruma_logo.png" alt="Buruma Logo" width="360px">
+  </a>
+</p>
+<p align="center">
+  <a href="https://app.netlify.com/sites/affectionate-hypatia-0ab213/deploys">
+    <img src="https://api.netlify.com/api/v1/badges/b6a64571-0bd0-45f9-b993-7a28878630d7/deploy-status" alt="Netlify Status">
+  </a>
+  <a href="https://gitmoji.carloscuesta.me">
+    <img src="https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square" alt="Gitmoji">
+  </a>
+  <a href="https://github.com/frinyvonnick/gitmoji-changelog">
+    <img src="https://img.shields.io/badge/Changelog-gitmoji-brightgreen.svg" alt="gitmoji-changelog">
+  </a>
+</p>
 
 Buruma is a [Pelican](https://github.com/getpelican/pelican) theme built with the CSS framework [Bulma](https://bulma.io).
 
