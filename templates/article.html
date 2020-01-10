@@ -7,7 +7,7 @@
 {% block content %}
 <article class="message is-info">
 	<div class="message-header">
-		{{ article.title }}
+		<h2>{{ article.title }}</h2>
 		<p><time itemprop="dateCreated" datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time></p>
 	</div>
 	<div class="message-body has-text-dark">
