@@ -19,6 +19,7 @@ In this section you can check the available variables to configure Buruma with y
 |`MENUITEMS_NAVBAR_FEATURED`|Set of items with an different style in the right part of the menu of the navigation bar|Tuple|`(("Docs", "/p/docs.html", "is-link"), ("Info", "/p/info", "is-info"))`|
 |`NAVBAR_STYLE`|CSS class for the navigation bar (see section *Buruma SCSS/CSS*|String|`is-info`, `is-warning`|
 |`CATS_STYLE`|Allow to apply a CSS class to elements (e.g., entries) of the specified categories|Dictionary|`{"Example cat 1": "is-info", "Example cat 2": "is-link"}`|
+|`CATS_NOT_DROPDOWN`|If it is `True`, just show a link to the categories page and not a dropdown with a link for each category|Boolean||
 |`FOOTER`|Customized HTML snippet to replace the default text in the footer|Tuple (multiline string)||
 |`LICENSE`|If it is `True`, show the customized `LICENSE_NOTICE`, if it is `False` or it isn't declared, show a copyright notice|Boolean||
 |`LICENSE_NOTICE`|Allow to add a HTML snippet to add a license|Tuple (multiline string)||
