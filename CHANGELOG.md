@@ -1,5 +1,19 @@
 # Changelog
 
+<a name="0.2.0"></a>
+## 0.2.0 (2020-01-10)
+
+### Added
+
+- ✨ Add CATS_NOT_DROPDOWN to not use a dropdown menu [[29e526d](https://github.com/ivanhercaz/buruma/commit/29e526df28f50990b8642dab3b0db7f0ca67c953)]
+- ✨ Add customizable welcome heading (solves [#24](https://github.com/ivanhercaz/buruma/issues/24)) [[8eab21a](https://github.com/ivanhercaz/buruma/commit/8eab21a8b3b465b467be068dd80a57284db96496)]
+
+### Fixed
+
+- 🐛 Fix [#23](https://github.com/ivanhercaz/buruma/issues/23): use {{ article.title }} inside &lt;h2&gt; tag [[5d03276](https://github.com/ivanhercaz/buruma/commit/5d0327620f03d1037b2a56ccd399ff75fe398b71)]
+- 🐛 Fix [#22](https://github.com/ivanhercaz/buruma/issues/22): Add date in the entries (article.html) [[b7a0687](https://github.com/ivanhercaz/buruma/commit/b7a06875de83cb51699cf8a562285bc4dffc1afe)]
+
+
 <a name="0.1.0"></a>
 ## 0.1.0 (2019-12-09)
 
