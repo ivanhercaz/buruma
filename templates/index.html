@@ -3,7 +3,7 @@
 {% block content %}
 	<div class="columns">
 		<div class="column">
-			<h1 class="title">{% trans %}Welcome to{% endtrans %} {{ SITENAME }}{% trans %}!{% endtrans %}</h1>
+			<h1 class="title">{% if WELCOME_HEADING %}{{ WELCOME_HEADING }}{% else %}{% trans %}Welcome to{% endtrans %} {{ SITENAME }}{% trans %}!{% endtrans %}{% endif %}</h1>
 			{% if SITENAME_SLOGAN %}<h2 class="subtitle">{{ SITENAME_SLOGAN }}</h2>{% endif %}
 			{% if SOCIAL and SOCIAL_FRONTPAGE %}<p>{% trans %}We are in{% endtrans %} <a class="tag is-link" href="https://www.linkedin.com/in/ivanhercaz">LinkedIn</a>, <a class="tag is-dark" href="https://ivanhercaz.github.io/theme/images/icons/github.png">GitHub</a> {% trans %}and{% endtrans %} <a class="tag is-info"class="tag is-info"  href="https://ivanhercaz.github.io/theme/images/icons/twitter.png">Twitter</a>.</p>{% endif %}
 		</div>
