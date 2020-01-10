@@ -25,11 +25,13 @@
 		{% block navbar %}
 		<nav class="navbar {% if NAVBAR_STYLE %}{{ NAVBAR_STYLE }}{% else %}is-info{% endif %}" role="navigation" aria-label="main navigation">
 				<div class="navbar-brand">
-					{% if THEME_LOGO %}
+					{% if THEME_LOGO is defined and THEME_LOGO is sameas false %}
+						<!-- Empty -->
+					{% elif THEME_LOGO is defined %}
 						<a class="navbar-item" href="{{ SITEURL }}">
 							<img src="{{ THEME_LOGO }}" width="112" height="28">
 						</a>
-					{% else %}
+					{% elif THEME_LOGO is not defined %}
 						<a class="navbar-item" href="{{ SITEURL }}">
 							<img src="{{ SITEURL }}/theme/images/buruma_logo.png" width="112" height="28">
 						</a>
