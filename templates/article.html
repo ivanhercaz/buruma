@@ -8,6 +8,7 @@
 <article class="message is-info">
 	<div class="message-header">
 		{{ article.title }}
+		<p><time itemprop="dateCreated" datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time></p>
 	</div>
 	<div class="message-body has-text-dark">
 		{{ article.content }}
