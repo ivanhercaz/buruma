@@ -47,18 +47,24 @@
 							{{ item }}
 						</a>
 					{% endfor %}
-					<div class="navbar-item has-dropdown is-hoverable">
-						<a class="navbar-link" href="/categories">
-							{% trans %}Categories{% endtrans %}
+					{% if CATS_NOT_DROPDOWN %}
+						<a class="navbar-item" href="/categories">
+							{% trans %}Categories{% endtrans%}
 						</a>
-						<div class="navbar-dropdown">
-							{% for cat in categories %}
-							<a class="navbar-item" href="/{{ cat[0].url }}">
-								{{ cat[0] }}
+					{% else %}
+						<div class="navbar-item has-dropdown is-hoverable">
+							<a class="navbar-link" href="/categories">
+								{% trans %}Categories{% endtrans %}
 							</a>
-							{% endfor %}
+							<div class="navbar-dropdown">
+								{% for cat in categories %}
+								<a class="navbar-item" href="/{{ cat[0].url }}">
+									{{ cat[0] }}
+								</a>
+								{% endfor %}
+							</div>
 						</div>
-					</div>
+					{% endif %}
 				</div>
 				<div class="navbar-end">
 					<div class="navbar-item">
