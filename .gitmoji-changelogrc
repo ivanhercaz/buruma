@@ -2,7 +2,7 @@
 	"project": {
 		"name": "Buruma",
 		"description": "a Pelican theme with Bulma (CSS Framework)",
-		"version": "0.1.0"
+		"version": "0.2.1"
 	},
 	"commitMapping": [{
 			"group": "documentation",

@@ -1,5 +1,23 @@
 # Changelog
 
+<a name="0.2.1"></a>
+## 0.2.1 (2020-01-10)
+
+### Changed
+
+- 🎨 Add space at the closing of SITEURL variable [[9de0e10](https://github.com/ivanhercaz/buruma/commit/9de0e109be8aabcf2942b6bd5a9c3bd9ac0c4d2d)]
+- 🔧 Specify SITEURL because it was empty [[7ea15c9](https://github.com/ivanhercaz/buruma/commit/7ea15c9930847ddc48dfe831d95e210b58d903d4)]
+
+### Fixed
+
+- 🐛 Define conditions to choose theme logo (fix [#25](https://github.com/ivanhercaz/buruma/issues/25)) [[b97e26b](https://github.com/ivanhercaz/buruma/commit/b97e26b4d2a7c6c4393e5c3e3043cbc3cc497677)]
+
+### Documentation
+
+- 📝 Write documentation for WELCOME_HEADING [[0090b36](https://github.com/ivanhercaz/buruma/commit/0090b36d865eebcb2d03b92ae3679459fb273b5e)]
+- 📝 Write documentation for CATS_NOT_DROPDOWN [[ae3fb67](https://github.com/ivanhercaz/buruma/commit/ae3fb675bcf1d96d811ef9fa86eba60596fa0a7f)]
+
+
 <a name="0.2.0"></a>
 ## 0.2.0 (2020-01-10)
 
