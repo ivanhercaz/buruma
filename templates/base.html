@@ -20,6 +20,10 @@
 		<title>{% block title %}{{ SITENAME|striptags|e }}{% endblock title %}</title>
 		<link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/style.min.css">
 		<script src="{{ SITEURL }}/theme/js/menu.js"></script>
+		<!-- Pending to improve -->
+		{% if MATOMO %}
+			{{ MATOMO }}
+		{% endif %}
 	</head>
 	<body>
 		{% block navbar %}
