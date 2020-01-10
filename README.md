@@ -17,7 +17,7 @@
 
 Buruma is a [Pelican](https://github.com/getpelican/pelican) theme built with the CSS framework [Bulma](https://bulma.io).
 
-The current version is the 0.1.0. Before this one Buruma was in [0.1.0-alpha](https://github.com/ivanhercaz/buruma/releases/tag/0.1.0-alpha), not recommended for production. 
+The current version is the [0.2.0](https://github.com/ivanhercaz/buruma/releases/tag/v0.2.0). 
 
 If you want to use Buruma, I recommend you to read the available [quickstart](https://buruma.ivanhercaz.com/quickstart) in the documentation website, because it might help you to decide if Buruma is fine for you at this moment.
 
