@@ -23,5 +23,6 @@ In this section you can check the available variables to configure Buruma with y
 |`FOOTER`|Customized HTML snippet to replace the default text in the footer|Tuple (multiline string)||
 |`LICENSE`|If it is `True`, show the customized `LICENSE_NOTICE`, if it is `False` or it isn't declared, show a copyright notice|Boolean||
 |`LICENSE_NOTICE`|Allow to add a HTML snippet to add a license|Tuple (multiline string)||
+|`WELCOME_HEADING`|Customized heading to replace the default welcoming heading|String|Welcome to my website!|
 |`ABOUT_EXTRACT_STATUS`|If it is `True`, show the customized `ABOUT_EXTRACT`|Boolean||
 |`ABOUT_EXTRACT`|Allow to add a HTML snippet to add an extract about the site (or whatever) between the navigation bar and the content. It is only shown in the home page|Tuple (multiline string)||
