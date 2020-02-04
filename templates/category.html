@@ -5,7 +5,7 @@
 {% endblock title %}
 
 {% block content %}
-	<h1 class="title">{% trans %}Articles categorized in{% endtrans %} <span class="tag is-large">{{ category }}</span></h2>
+	<h1 class="title">{% trans %}Articles categorized in{% endtrans %} <span class="tag is-large">{{ category }}</span></h1>
 
 	{% for article in dates %}
 		{% include "_includes/article_extract.html" %}
