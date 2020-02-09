@@ -1,5 +1,23 @@
 # Changelog
 
+<a name="0.2.2"></a>
+## 0.2.2 (2020-02-04)
+
+### Changed
+
+- 💄 Update table styles to Bulma style with @extend [[fa57a2d](https://github.com/ivanhercaz/buruma/commit/fa57a2d070a8faf6fb984ba0ae41483121e85985)]
+
+### Fixed
+
+- 🐛 Fix [#31](https://github.com/ivanhercaz/buruma/issues/31): error in heading tags [[fb47c3e](https://github.com/ivanhercaz/buruma/commit/fb47c3eee980a535e0cc348ead80af21cf417d0c)]
+- 🐛 Change SITEURL by main_siteurl (fix [#29](https://github.com/ivanhercaz/buruma/issues/29)) [[8f77ca5](https://github.com/ivanhercaz/buruma/commit/8f77ca599831d3016caeeb8eaa5ebb35769bcddc)]
+
+### Miscellaneous
+
+-  :camera_flash: Add screenshots for version 0.2.1 (resolve [#27](https://github.com/ivanhercaz/buruma/issues/27)) [[de21555](https://github.com/ivanhercaz/buruma/commit/de21555c5a2dd2189c445c549dac5bff6eac7a6c)]
+- 💩 Add Matomo support ([#26](https://github.com/ivanhercaz/buruma/issues/26)) [[c9f60e7](https://github.com/ivanhercaz/buruma/commit/c9f60e75c6688226606beb6651eb99b567d9cf52)]
+
+
 <a name="0.2.1"></a>
 ## 0.2.1 (2020-01-10)
 
