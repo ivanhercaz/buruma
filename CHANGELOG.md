@@ -1,5 +1,13 @@
 # Changelog
 
+<a name="0.2.3"></a>
+## 0.2.3 (2020-02-09)
+
+### Fixed
+
+- 🐛 Fix [#34](https://github.com/ivanhercaz/buruma/issues/34): add SCSS rules for headings [[6b20a50](https://github.com/ivanhercaz/buruma/commit/6b20a50e0d77287b9ddeef910652363c5e09bd49)]
+
+
 <a name="0.2.2"></a>
 ## 0.2.2 (2020-02-04)
 
