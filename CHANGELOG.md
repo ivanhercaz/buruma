@@ -5,7 +5,7 @@
 
 ### Fixed
 
-- 🐛 Fix [#34](https://github.com/ivanhercaz/buruma/issues/34): add SCSS rules for headings [[6b20a50](https://github.com/ivanhercaz/buruma/commit/6b20a50e0d77287b9ddeef910652363c5e09bd49)]
+- 🐛 Fix [#32](https://github.com/ivanhercaz/buruma/issues/32): add SCSS rules for headings [[6b20a50](https://github.com/ivanhercaz/buruma/commit/6b20a50e0d77287b9ddeef910652363c5e09bd49)]
 
 
 <a name="0.2.2"></a>
