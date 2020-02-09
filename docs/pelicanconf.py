@@ -6,7 +6,7 @@ AUTHOR = 'Buruma Team'
 SITENAME = 'Buruma Documentation'
 SUBTITLE = "A Pelican theme based on Bulma and flexbox"
 SITENAME_SLOGAN = SUBTITLE
-SITEURL = ""
+SITEURL = 'https://buruma.ivanhercaz.com'
 
 PATH = 'content'
 
