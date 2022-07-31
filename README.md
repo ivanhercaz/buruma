@@ -15,6 +15,23 @@
   </a>
 </p>
 
+## Abandoned project notice
+
+I would like that anyone interested on this project read this notice before to spend time configuring and using Buruma for a project.
+
+**TLDR**: I abandoned the project because I am not motivated to continue it and I am migrating progressively my projects built with Pelican. Anyone interested in continue this project is more than welcome. If this is the case, you can contact with me if you have some doubt that I can solve.
+
+There are some issues open, mainly enhancements. I try to keep track of all the ideas I had when I was working on Buruma. If I get more free time, I will create an issue to look for a new maintainer. At the moment I am writting this there are two forks with some commits ahead:
+
+- [psychonaute/buruma](https://github.com/psychonaute/buruma). Reading the commits, this one seems to add some interesting enhancements like "Bulma Timeline" and "Bulma Accordion".
+- [Marusoftware/bulma-pelican-theme](https://github.com/Marusoftware/bulma-pelican-theme).
+
+Of course, before to use them check them and ask any doubt you have to them, to know if their projects fit with your needs.
+
+I want to take advantage to thanks to Pelican contributors for all their work. Pelican helped me a lot and I really like it. But now I have other interests and I want to migrate to another static site generator just to support my learning of my new interests.
+
+## Introduction
+
 Buruma is a [Pelican](https://github.com/getpelican/pelican) theme built with the CSS framework [Bulma](https://bulma.io).
 
 The current version is the [0.2.3](https://github.com/ivanhercaz/buruma/releases/tag/v0.2.3). 
