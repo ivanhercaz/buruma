@@ -27,6 +27,6 @@
   "homepage": "https://github.com/ivanhercaz/buruma",
   "devDependencies": {
     "bulma": "^0.8.0",
-    "node-sass": "^4.13.0"
+    "node-sass": ">=7.0.0"
   }
 }
